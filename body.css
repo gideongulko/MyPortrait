@@ -1,0 +1,145 @@
+body {
+  background: white;
+}
+
+h1{
+font-size: 5vw;
+font-family: helvetica;
+}
+
+h1:hover{
+cursor: pointer;
+color: transparent;
+
+}
+
+
+
+.container,
+.face,
+.shoulder,
+.eye,
+.eye2,
+.pupil,
+.pupil2,
+.nose,
+.smile {
+  position: absolute;
+}
+
+.container {
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 50px;
+  height: 350px;
+}
+
+
+.face {
+  width: 500px;
+  height: 500px;
+  bottom: -50px;
+  right: -220px;
+  background: #ffcd94;
+  border-radius: 50%;
+  z-index: 2
+}
+
+
+
+.shoulder {
+  width: 500px;
+  height: 500px;
+  bottom: -400px;
+  right: -220px;
+  background: navy;
+  border-top-left-radius: 90px;
+  border-top-right-radius: 90px;
+  z-index: 1
+}
+
+.shoulder:hover{
+  cursor: pointer;
+  background-color:#ffcd94;
+}
+
+.eye {
+  width: 80px;
+  height: 80px;
+  bottom: 200px;
+  right: 100px;
+  background: white;
+  border-radius: 60% 15%;
+   transform: rotate(45deg);
+  z-index: 3
+}
+
+
+.eye2 {
+  width: 80px;
+  height: 80px;
+  bottom: 200px;
+  right: -120px;
+  background: white;
+  border-radius: 60% 15%;
+   transform: rotate(45deg);
+
+
+  z-index: 3
+}
+
+
+.pupil {
+  width: 80px;
+  height: 80px;
+  bottom: 200px;
+  right: -120px;
+  background: green;
+  border-radius: 100%;
+  z-index: 3
+}
+
+.pupil:hover{
+  cursor: pointer;
+  background-color: navy;
+}
+
+.pupil2 {
+  width: 80px;
+  height: 80px;
+  bottom: 200px;
+  right: 100px;
+  background: green;
+  border-radius:100%;
+  z-index: 3
+}
+
+.pupil2:hover{
+  cursor: pointer;
+  background-color: navy;
+}
+
+
+.nose {
+  width: 30px;
+  height: 80px;
+  bottom: 130px;
+  right: 18px;
+  background-color: #ffe0bd;
+  border-radius: 10px;
+  z-index: 3
+}
+
+.smile {
+  width: 175px;
+  height: 100px;
+  bottom: -10px;
+  right: -55px;
+  background-color: white;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  z-index: 3
+}
