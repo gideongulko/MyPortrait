@@ -2,6 +2,7 @@ body {
   background: white;
 }
 
+
 h1{
 font-size: 5vw;
 font-family: helvetica;
@@ -48,7 +49,11 @@ color: transparent;
   z-index: 2
 }
 
+.face:hover{
+cursor: pointer;
+border-radius: 0%;
 
+}
 
 .shoulder {
   width: 500px;
