@@ -1,16 +1,26 @@
 body {
-  background: white;
+  background: #b1e1f9;
+}
+
+body:hover{
+cursor: zoom-out;
+background: white;
+
 }
 
 
 h1{
 font-size: 5vw;
 font-family: helvetica;
+background-color: salmon;
+color: transparent
 }
 
 h1:hover{
 cursor: pointer;
-color: transparent;
+color: black;
+background-color: transparent;
+
 
 }
 
@@ -67,8 +77,8 @@ border-radius: 0%;
 }
 
 .shoulder:hover{
-  cursor: pointer;
   background-color:#ffcd94;
+
 }
 
 .eye {
@@ -138,6 +148,11 @@ border-radius: 0%;
   z-index: 3
 }
 
+.nose:hover{
+background-color: transparent;
+
+}
+
 .smile {
   width: 175px;
   height: 100px;
@@ -147,4 +162,9 @@ border-radius: 0%;
   border-bottom-left-radius: 100px;
   border-bottom-right-radius: 100px;
   z-index: 3
+}
+
+.smile:hover{
+border-radius: 100%;
+
 }
